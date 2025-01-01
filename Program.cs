@@ -9,7 +9,7 @@ var oldStartName = oldCompany + oldProject;
 var prefix = string.Concat(company, ".", project);
 var startName = company + project;
 
-var path = Path.Combine("D:\\developer\\open-source\\re-admin-net\\backend");
+var path = Path.Combine("./backend");
 var findFileSuffix = new string[] { ".DotSettings", ".cs", ".sln", ".config", ".csproj" };
 var findFileName = new string[] { "launchSettings.json" };
 Rename(path);
